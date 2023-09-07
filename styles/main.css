@@ -1,0 +1,90 @@
+body {
+  background-image: url(/Users/alexluckett/Downloads/wallpaperflare.com_wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: monospace;
+}
+
+@media (max-width: 640px) {
+  body {
+    background-image: url(/Users/alexluckett/Downloads/wallpaperflare.com_wallpaper.jpg);
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1280px) {
+  body {
+    background-image: url(/Users/alexluckett/Downloads/wallpaperflare.com_wallpaper.jpg);
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1280px) {
+  body {
+    background-image: url(/Users/alexluckett/Downloads/wallpaperflare.com_wallpaper.jpg);
+  }
+}
+h1{
+  text-align: center;
+  font-size: 75px;
+
+}
+.intro {
+  text-align: center;
+  margin: 110px;
+  font-size: 35px;
+}
+
+.list-blog {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+
+}
+
+
+
+.myself {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  width: 200px;
+  height: auto;
+  border-radius: 800px;
+  border-style: solid;
+  border-width: 10px;
+}
+
+i {
+  font-size: 70px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+
+.blogpost {
+  text-align: center;
+  margin: 100px;
+  color: rgb(0, 0, 0);
+  font-family:'Courier New', Courier, monospace;
+  padding: 25px 25px 25px 25px;
+  margin:10%;
+  border-radius: 100px;
+  background-color: rgb(193, 247, 247);
+  
+
+}
+
+.box-model {
+  border-radius: 100px;
+  padding: 25px;
+  border-width: 20px;
+}
+
+.bk-button {
+  padding: 20px;
+  background-color: rgb(149, 241, 235);
+  margin: 20px;
+  border-radius: 10px;
+}

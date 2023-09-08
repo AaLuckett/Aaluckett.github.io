@@ -1,5 +1,5 @@
 body {
-  background-image: url(/Users/alexluckett/devacademy/Aaluckett.github.io/images/wallpaperflare.com_wallpaper.jpg);
+  background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: monospace;
@@ -7,19 +7,19 @@ body {
 
 @media (max-width: 640px) {
   body {
-    background-image: url(/Users/alexluckett/devacademy/Aaluckett.github.io/images/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
   }
 }
 
 @media (min-width: 640px) and (max-width: 1280px) {
   body {
-    background-image: url(//Users/alexluckett/devacademy/Aaluckett.github.io/images/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
   }
 }
 
 @media (min-width: 640px) and (max-width: 1280px) {
   body {
-    background-image: url(/Users/alexluckett/devacademy/Aaluckett.github.io/images/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
   }
 }
 h1{

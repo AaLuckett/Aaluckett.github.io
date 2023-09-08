@@ -81,6 +81,9 @@ i {
   padding: 25px;
   border-width: 20px;
 }
+.code-bpm {
+  width: 500px;
+}
 
 .bk-button {
   padding: 20px;

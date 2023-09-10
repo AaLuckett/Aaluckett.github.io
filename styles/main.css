@@ -1,3 +1,5 @@
+@media screen and (max-width: 481px){
+
 body {
   background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
   background-repeat: no-repeat;
@@ -119,4 +121,5 @@ i {
   border-style: groove;
   border-width: 5px;
   border-color: cornflowerblue;
+}
 }

@@ -6,14 +6,14 @@ body {
 }
 
 /* For mobile phones: */
-[class*="col-"] {
+[class*='col-'] {
   width: 100%;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 75px;
-
+  
 }
 .intro {
   text-align: center;
@@ -27,10 +27,12 @@ h1{
   position: absolute;
   bottom: 0px;
   right: 20px;
-
+  background-color:rgb(0, 0, 0);
+  padding: 1px 30px 10px 1px;
+  border-radius: 25px;
+  opacity: 0.9;
+  
 }
-
-
 
 .myself {
   position: absolute;
@@ -50,24 +52,57 @@ i {
   left: 20px;
 }
 
-
 .blogpost {
   text-align: center;
   margin: 100px;
   color: rgb(0, 0, 0);
-  font-family:'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   padding: 25px 25px 25px 25px;
-  margin:10%;
+  margin: 10%;
   border-radius: 100px;
   background-color: rgb(193, 247, 247);
-  
+}
 
+.identity-values {
+  text-align: center;
+  margin: 50px;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 25px 25px 25px 25px;
+  margin: 10%;
+  border-radius: 100px;
+  background-color: rgb(193, 247, 247);
+
+}
+.learning-plan {
+  text-align: center;
+  margin: 50px;
+  color:black;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 5px 10px 50px 10px;
+  margin: 10%;
+  border-radius: 25px;
+  background-color: rgb(193, 247, 247);
+}
+
+.question {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  
+}
+
+.answer {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .box-model {
   border-radius: 100px;
   padding: 25px;
   border-width: 20px;
+
 }
 .code-bpm {
   width: 500px;
@@ -79,3 +114,13 @@ i {
   margin: 20px;
   border-radius: 10px;
 }
+
+.family {
+  width: 250px;
+  height:auto;
+  border-radius: 15px;
+  border-style: groove;
+  border-width: 5px;
+  border-color: cornflowerblue;
+}
+

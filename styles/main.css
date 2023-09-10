@@ -3,17 +3,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: monospace;
-}
-
-/* For mobile phones: */
-[class*='col-'] {
-  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 h1 {
   text-align: center;
   font-size: 75px;
-  
 }
 .intro {
   text-align: center;
@@ -27,11 +23,12 @@ h1 {
   position: absolute;
   bottom: 0px;
   right: 20px;
-  background-color:rgb(0, 0, 0);
+  background-color: rgb(0, 0, 0);
   padding: 1px 30px 10px 1px;
   border-radius: 25px;
   opacity: 0.9;
-  
+  max-width: 80vw;
+  max-height: 100vh;
 }
 
 .myself {
@@ -43,6 +40,8 @@ h1 {
   border-radius: 800px;
   border-style: solid;
   border-width: 10px;
+  max-width: 80vw;
+  max-height: 100vh;
 }
 
 i {
@@ -61,23 +60,23 @@ i {
   margin: 10%;
   border-radius: 100px;
   background-color: rgb(193, 247, 247);
+  max-width: 1920px;
 }
 
 .identity-values {
   text-align: center;
   margin: 50px;
-  color:black;
+  color: black;
   font-family: 'Courier New', Courier, monospace;
   padding: 25px 25px 25px 25px;
   margin: 10%;
   border-radius: 100px;
   background-color: rgb(193, 247, 247);
-
 }
 .learning-plan {
   text-align: center;
   margin: 50px;
-  color:black;
+  color: black;
   font-family: 'Courier New', Courier, monospace;
   padding: 5px 10px 50px 10px;
   margin: 10%;
@@ -89,7 +88,6 @@ i {
   text-align: center;
   font-size: 20px;
   font-style: italic;
-  
 }
 
 .answer {
@@ -102,7 +100,6 @@ i {
   border-radius: 100px;
   padding: 25px;
   border-width: 20px;
-
 }
 .code-bpm {
   width: 500px;
@@ -117,10 +114,9 @@ i {
 
 .family {
   width: 250px;
-  height:auto;
+  height: auto;
   border-radius: 15px;
   border-style: groove;
   border-width: 5px;
   border-color: cornflowerblue;
 }
-

@@ -5,23 +5,11 @@ body {
   font-family: monospace;
 }
 
-@media (max-width: 640px) {
-  body {
-    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
-  }
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
 }
 
-@media (min-width: 640px) and (max-width: 1280px) {
-  body {
-    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
-  }
-}
-
-@media (min-width: 640px) and (max-width: 1280px) {
-  body {
-    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
-  }
-}
 h1{
   text-align: center;
   font-size: 75px;

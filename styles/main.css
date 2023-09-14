@@ -114,3 +114,13 @@ h2 {
     color: #131b23;
     margin: 0 auto;
 }
+
+.JavaScriptBlogImgs{
+  width: 500px;
+  height: auto;
+  border-radius: 15px;
+  border-style: groove;
+  border-width: 5px;
+  border-color: cornflowerblue;
+
+}

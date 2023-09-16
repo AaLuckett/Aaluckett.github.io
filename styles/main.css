@@ -3,41 +3,129 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: monospace;
-  margin: 0 auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+h1 {
+  font-size: 2.5rem;
+}
+
+
+p {
+  font-size: 1.5rem;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
 }
 
 h1 {
   text-align: center;
-  font-size: 75px;
+  font-size: 3.5rem;
 }
+
+h2 {
+  font-size: 1.4rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+  color: #131b23;
+  margin: 0 auto;
+}
+h3 {
+  font-size: 2.0rem;
+
+}
+
 .intro {
-  text-align: center;
-  margin: 110px;
-  font-size: 35px;
+  text-align:center;
+  margin: 2rem auto; 
+  font-size: 1.5rem;
+}
+
+
+.list-blog-container {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .list-blog {
-  font-size: 25px;
-  color: white;
-  position: absolute;
-  bottom: 0px;
-  right: 20px;
-  background-color: rgb(0, 0, 0);
-  padding: 1px 30px 10px 1px;
-  border-radius: 25px;
-  opacity: 0.9;
+  font-size: 1.25rem;
+  color: rgb(0, 0, 0);
+  list-style: none;
+  padding: 0;
+  
 }
+.list-blog li {
+  margin-bottom: 0.5rem; 
+}
+
+.list-blog a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  display: block;
+}
+
 
 .myself {
   position: absolute;
-  bottom: 8px;
-  left: 16px;
+  bottom: 1rem;
+  left: 1rem;
   width: 200px;
-  height: auto;
-  border-radius: 800px;
-  border-style: solid;
-  border-width: 10px;
+  height: 250px; 
+  border-radius: 50%; 
+  border: 10px solid #fff;
 }
+
 
 i {
   font-size: 70px;
@@ -47,17 +135,16 @@ i {
 }
 
 
-
 .blog-title {
   text-align: center;
-  margin: 50px;
+  margin: 2rem auto;
   color: black;
   font-family: 'Courier New', Courier, monospace;
-  padding: 25px 25px 25px 25px;
-  margin: 10%;
-  border-radius: 100px;
+  padding: 1.5rem;
+  border-radius: 150px;
   background-color: rgb(193, 247, 247);
 }
+
 
 .question {
   text-align: center;
@@ -65,62 +152,64 @@ i {
   font-style: italic;
 }
 
+
 .answer {
   text-align: center;
   font-size: 15px;
   font-weight: bold;
 }
 
+
 .box-model {
-  border-radius: 100px;
-  padding: 25px;
-  border-width: 20px;
-}
-.code-bpm {
-  width: 500px;
+  border-radius: 50px;
+  padding: 1.5rem;
+  border: 20px solid transparent;
 }
 
+
+.code-bpm {
+  max-width: 100%; 
+}
+
+
 .bk-button {
-  padding: 20px;
-  background-color: rgb(149, 241, 235);
-  margin: 20px;
-  border-radius: 10px;
+  padding: 20px; 
+  background-color: rgb(149, 241, 235); 
+  margin: 2rem;
+  border-radius: 10px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+}
+
+.bk-button:hover {
+  background-color: rgb(100, 200, 194); 
+
 }
 
 .family {
-  width: 250px;
+  width: 100%; 
+  max-width: 300px; 
   height: auto;
   border-radius: 15px;
-  border-style: groove;
-  border-width: 5px;
-  border-color: cornflowerblue;
+  border: 5px groove cornflowerblue;
 }
 
+
 .emotional-intelligence {
-  text-align: center;
-  margin: 50px;
+  text-align:center;
+  margin: 2rem auto;
   color: black;
   font-family: 'Courier New', Courier, monospace;
-  padding: 25px 25px 25px 25px;
-  margin: 10%;
-  border-radius: 100px;
+  padding: 1.5rem;
+  border-radius: 50px;
   background-color: rgb(193, 247, 247);
 }
 
-h2 {
-    font-size: 1.4em;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 100;
-    color: #131b23;
-    margin: 0 auto;
-}
 
-.JavaScriptBlogImgs{
-  width: 600px;
-  height: auto;
+
+
+.JavaScriptBlogImgs {
+  max-width: 100%;
   border-radius: 15px;
-  border-style: groove;
-  border-width: 5px;
-  border-color: cornflowerblue;
-
+  border: 5px groove cornflowerblue;
 }

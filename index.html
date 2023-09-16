@@ -1,56 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-    <link href="./styles/main.css" rel="stylesheet" type="text/css" />
-    <title>Alex's blog</title>
-    <script
-      src="https://kit.fontawesome.com/0c51f510e7.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <style type="text/css"></style>
-  </head>
-
-  <body>
-    <main>
-      <div>
-        <i class="fa-solid fa-mountain"></i>
-      </div>
-      <!-- Header -->
-      <div>
-        <h1>My blog for Devacademy 2023</h1>
-      </div>
-      <!-- Intro -->
-      <div class="main">
-        <div class="intro">
-          <p>
-            Kia ora, My name is Alex and I currently live in Golden Bay, <br />
-            which is at the top of the South Island. 🌞
-          </p>
-        </div>
-        <!-- Blog List -->
-        <div class="list-blog">
-          <ul>
-            <ls>
-              <a href="blog/te-houtaewa-template.html"> te-houtaewa</a>
-              <br>
-              <a href="blog/learning-plan.html">My learning plan</a>
-              <br>
-              <a href="blog/html-css.html">Margin,border & padding</a>
-              <br>
-              <a href="blog/identity-values.html">Identity & Values</a>
-              <br>
-              <a href="./blog/emotional-intelligence.html">Emotional Intelligence</a>
-              <br>
-              <a href="./blog/javascript-dom.html">JS Fundamentals</a>
-            </ls>
-          </ul>
-        </div>
-
-        <img class="myself" src="./images/IMG_6920.jpeg" />
-      </div>
-    </main>
-  </body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/main.css" type="text/css">
+    <title>Alex's Blog</title>
+    <script src="https://kit.fontawesome.com/0c51f510e7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <i class="fas fa-mountain"></i>
+            </div>
+            <h1>My Blog for Devacademy 2023</h1>
+        </header>
+        <main>
+            <!-- Intro -->
+            <section class="intro">
+                <p>
+                    Kia ora, My name is Alex.<br>
+                    I currently live in Golden Bay, Aoteraoa!🌞
+                </p>
+            </section>
+            
+            <!-- Blog List -->
+            <div class="list-blog-container">
+             <ul class="list-blog">
+                    <li>
+                        <a href="blog/te-houtaewa-template.html">Te Houtaewa</a>
+                    </li>
+                    <li>
+                        <a href="blog/learning-plan.html">My Learning Plan</a>
+                    </li>
+                    <li>
+                        <a href="blog/Margins, border & padding.html">Margin, Border & Padding</a>
+                    </li>
+                    <li>
+                        <a href="blog/identity-values.html">Identity & Values</a>
+                    </li>
+                    <li>
+                        <a href="./blog/emotional-intelligence.html">Emotional Intelligence</a>
+                    </li>
+                    <li>
+                        <a href="./blog/javascript-dom.html">JS Fundamentals</a>
+                    </li>
+                </ul>
+              </div>
+            
+            <!-- Image -->
+            <section>
+                <img class="myself" src="./images/IMG_6920.jpeg" alt="Alex's Photo">
+            </section>
+        </main>
+    </div>
+</body>
 </html>

@@ -1,72 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>What's the difference between margin,border and padding in CSS </title>
-    <meta charset="UTF-8" />
-    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <main> 
-      <a href="../index.html">
-        <button class="bk-button">Back</button>
-      </a>
-      <div class="blog-title">
-      <!-- Header -->
-        <h1>What's the difference between margin,border and padding in CSS?</h1>
-      <!-- Explaining -->
-        <p>Margin is an external element outside the box. It controls the spacing
-       between different elements (boxes) and between the element (box) with the
-       edge of the screen. <br> Borders are lines drawn on the edge of your element,
-       encasing the element's content, but not ever going outside the element's
-       boundaries. <br> Padding determines inside spacing, which can control how much
-       the background color is visible around the content.</p>
-       <!-- Margin -->
-        <h2>When to use margin?</h2>
-        <p>
-          <lu>
-            <li>Change elements position on the page To set the
-         element right or left, up or down on the page, you can play with the
-         margin. To reach the centered position on the page, make sure the width of
-         the page is fixed and set margin value to Auto.</li>
-            <li>Add distance between
-         two elements in the page CSS margins are used to make the elements
-         arrangement on the web page visually appealing by adding spacing between
-         them. This way two images or an image and a text won't densely adjoin each
-         other, distracting the visitor's attention. </lu>
-           <li>Overlap elements The
-             negative margin value helps to trespass an element upon another element
-             space. In the example below you can see how one image overlaps the other
-             with the help of margin, which creates a broken grid layout.</li>
-              </lu></p>
-         <!-- Padding -->
-        <h2>When to use padding?</h2>
-          <p>
-           <lu>
-              <li>Increase space between content and its border
-              Padding gives an opportunity to control a breathing room around the
-              element. Additional space for text on the button, for example, can improve
-              its readability, as well as design in general.</li> 
-              <li>Adjust the size of the
-                element Although padding doesn't influence the content size, it can
-                increase or decrease the white space around making it more visible and
-                clickable. This case is especially popular when creating product cards and
-                buttons.</li>
-              </lu></p>
-
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <title>What's the Difference Between Margin, Border, and Padding in CSS</title>
+</head>
+<body>
+    <main>
+        <a href="../index.html">
+            <button class="bk-button">Back</button>
+        </a>
+        <div class="blog-title">
+            <!-- Header -->
+            <h1>What's the Difference Between Margin, Border, and Padding in CSS?</h1>
+            <!-- Explaining -->
+            <li>Margin is an external element outside the box. It controls the spacing between different elements (boxes) and between the element (box) with the edge of the screen. <br> Borders are lines drawn on the edge of your element, encasing the element's content, but not ever going outside the element's boundaries. <br> Padding determines inside spacing, which can control how much the background color is visible around the content.</li>
+            <!-- Margin -->
+            <br>
+            <h3>When to Use Margin?</h3>
+            <ul>
+                <li>Change elements position on the page: To set the element right or left, up or down on the page, you can play with the margin. To reach the centered position on the page, make sure the width of the page is fixed and set margin value to Auto.</li>
+                <li>Add distance between two elements in the page: CSS margins are used to make the elements arrangement on the web page visually appealing by adding spacing between them. This way two images or an image and a text won't densely adjoin each other, distracting the visitor's attention.</li>
+                <li>Overlap elements: The negative margin value helps to trespass an element upon another element space. In the example below, you can see how one image overlaps the other with the help of margin, which creates a broken grid layout.</li>
+            </ul>
+            <!-- Padding -->
+            <h3>When to Use Padding?</h3>
+            <ul>
+                <li>Increase space between content and its border: Padding gives an opportunity to control a breathing room around the element. Additional space for text on the button, for example, can improve its readability, as well as design in general.</li>
+                <li>Adjust the size of the element: Although padding doesn't influence the content size, it can increase or decrease the white space around, making it more visible and clickable. This case is especially popular when creating product cards and buttons.</li>
+            </ul>
             <!-- Border -->
-         <h2>When to use border?</h2>
-          <p> 
-            <lu> 
-              <li>Since borders separate between padding and margin,CSS Borders can be used as a good color contrast between a web element and the web pages background.For instance, if the background color of a web page is light in value, we can simply apply a dark or slightly darker color to a border of a particular web element on the web page. This will help provide a good visual contrast.
+            <h3>When to Use Border?</h3>
+            <ul>
+              <li>
+                Since borders separate between padding and margin, CSS Borders can be used as a good color contrast between a web element and the web page's background. For instance, if the background color of a web page is light in value, we can simply apply a dark or slightly darker color to a border of a particular web element on the web page. This will help provide a good visual contrast
               </li>
-             </lu> </p>
-             <img class="box-model" src="../images/CSS-Box-Model-1.jpg">
-             <p>The code below is what I used for the blogpost above^</p>
-             <img class="code-bpm" src="../images/Screenshot 2023-09-07 at 7.07.25 PM.png">
-      </div>
-  </main>
-   
-  
-    <!-- this is a comment. -->
-  </body>
+            </ul>
+            <img class="box-model" src="../images/CSS-Box-Model-1.jpg" alt="CSS Box Model">
+            <p>The code below is what I used for the blog post above:</p>
+            <img class="code-bpm" src="../images/Screenshot 2023-09-07 at 7.07.25 PM.png" alt="Code Example">
+        </div>
+    </main>
+</body>
 </html>

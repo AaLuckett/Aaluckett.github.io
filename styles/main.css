@@ -2,6 +2,7 @@ body {
   background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.1);
   font-family: monospace;
   margin: 0;
   display: flex;
@@ -13,15 +14,24 @@ body {
 
 
 .container {
-  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr; 
+  gap: 20px; 
+  width: 90%;
   max-width: 800px;
   text-align: center;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 15px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  
+
 }
+.grid-container {
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 150px; 
+}
+
 
 
 h1 {
@@ -35,6 +45,10 @@ p {
 
 
 @media (max-width: 768px) {
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+  
   .container {
     width: 90%;
     padding: 15px;
@@ -76,16 +90,55 @@ h2 {
   color: #131b23;
   margin: 0 auto;
 }
+
 h3 {
   font-size: 2.0rem;
+  
+}
+.navbar {
+  top: 10px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+  padding: 50px 0; 
+}
 
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 50px; 
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.underline-title {
+  text-decoration: underline; 
 }
 
 .intro {
+  
   text-align:center;
   margin: 2rem auto; 
   font-size: 1.5rem;
 }
+
+.image-section {
+  text-align: center; 
+  grid-column: span 2;
+}
+
 
 
 .list-blog-container {
@@ -117,23 +170,26 @@ h3 {
 
 
 .myself {
-  position: absolute;
-  bottom: 1rem;
-  left: 1rem;
-  width: 200px;
-  height: 250px; 
+  
+  width: 150px;
+  height: 200px; 
   border-radius: 50%; 
-  border: 10px solid #fff;
+  border: 10px solid #000000;
 }
 
 
 i {
   font-size: 70px;
   position: absolute;
-  top: 20px;
+  bottom: 20px;
   left: 20px;
+  color: #e8e8e8; /
+  
 }
 
+i:hover {
+  text-decoration: underline;
+}
 
 .blog-title {
   text-align: center;
@@ -212,4 +268,23 @@ i {
   max-width: 100%;
   border-radius: 15px;
   border: 5px groove cornflowerblue;
+}
+.footercontainer{
+
+  display: grid; 
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+  max-width: 800px;
+  }
+
+
+
+.footer {
+  color: #fff; 
+  padding: 20px 0; 
+  text-align: left;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
 }
